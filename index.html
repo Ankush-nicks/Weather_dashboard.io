@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Weather Dashboard</h1>
+      <div class="container-1">
+        <div class="search-box">
+          <h3>Enter a City Name</h3>
+          <input
+            id="cityInput"
+            type="text"
+            placeholder="E.g., Hyderabad, Delhi, Pune" />
+          <button id="searchBtn">Search</button>
+          <hr />
+          <button>Use Current Location</button>
+        </div>
+        <div>
+          <div class="weather-box">
+            <div class="weather-left">
+              <h3 id="locationText">London 21 Jun 2025</h3>
+
+              <p>Temperature: <span id="tempID">32</span> °C</p>
+              <p>Wind: <span id="windID">42</span> m/s</p>
+              <p>Humidity: <span id="humID">40</span>%</p>
+            </div>
+            <div class="weather-right">
+              <img id="tempIcon" src="" />
+            </div>
+          </div>
+          <div class="weather-bottom">
+            <h3>4-Day Forecast</h3>
+            <div class="four-day-weather">
+              <div class="card">
+                <h3 id="card_1_date">22 Jun 2025</h3>
+                <img id="card_1_img" src="" />
+                <p>Temp: <span id="card_1_temp">33</span> °C</p>
+                <p>Wind: <span id="card_1_wind">40</span> m/s</p>
+                <p>Humidity: <span id="card_1_humID">45</span>%</p>
+              </div>
+              <div class="card">
+                <h3 id="card_2_date">23 Jun 2025</h3>
+                <img id="card_2_img" src="" />
+                <p>Temp: <span id="card_2_temp">33</span> °C</p>
+                <p>Wind: <span id="card_2_wind">40</span> m/s</p>
+                <p>Humidity: <span id="card_2_humID">45</span>%</p>
+              </div>
+              <div class="card">
+                <h3 id="card_3_date">24 Jun 2025</h3>
+                <img id="card_3_img" src="" />
+                <p>Temp: <span id="card_3_temp">33</span> °C</p>
+                <p>Wind: <span id="card_3_wind">40</span> m/s</p>
+                <p>Humidity: <span id="card_3_humID">45</span>%</p>
+              </div>
+              <div class="card">
+                <h3 id="card_4_date">25 Jun 2025</h3>
+                <img id="card_4_img" src="" />
+                <p>Temp: <span id="card_4_temp">33</span> °C</p>
+                <p>Wind: <span id="card_4_wind">40</span> m/s</p>
+                <p>Humidity: <span id="card_4_humID">45</span>%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
