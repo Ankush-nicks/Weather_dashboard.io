@@ -7,10 +7,10 @@
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-green?style=for-the-badge)
 
 ## 📸 Screenshot
-![Screenshot](screenshots/weather-pic.png)
+![Screenshot](weather_pic.png)
 
 ## 🎞️ Demo
-![Demo](gifs/weather.gif)
+![Demo](weather.gif)
 
 ---
 
